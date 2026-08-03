@@ -6,7 +6,7 @@ This project proposes two custom indices built from match event data to mesure p
 
 ## Indices
 
-### CCI — Clutch Collapse Index
+### CCI — Collapse Control Index
 Measures how often a team concedes goals in high-pressure moments:
 - Goals conceded in the last 10 minutes of regular time
 - Goals conceded during extra time (90–120 min)
