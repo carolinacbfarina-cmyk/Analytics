@@ -27,10 +27,19 @@ FIFA World Cup match data 1930–2022 from Kaggle
 Source: https://www.kaggle.com/datasets/piterfm/fifa-football-world-cup
 
 ## Key Findings
-- Croatia is the most resilient team in knockout rounds
-- Germany shows the highest combination of volatility and resilience
-- Spain's tiki-taka era produced the most psychologically stable profile
-- Brazil's collapse tendency is real but moderate — not as extreme as perception suggests
+- Croatia — most stable and resilient team in modern football. Their penalty shootout record is not a coincidence.
+- Belgium — biggest transformation between eras, from mediocre to one of the best mental profiles in recent World Cups.
+- Germany — ultimate comeback team in the old era, more controlled but rigid in modern football. Less chaos, less magic.
+- Spain — consistently stable across both eras, rarely in danger but also rarely fights back when needed.
+- Brazil — well positioned in the old era, lost almost all resilience in modern football. The shift is real.
+Overall — football became much more controlled. Teams collapse less, but also come back less.
+
+## Explore It Yourself
+The code is built with configurable filters — you can easily adjust (in # define what will be plotted cell):
+Year range — compare any two eras you define
+Round type — knockout rounds only, group stage only, or all rounds combined
+Teams to display — add or remove any team from the scatter plot
+Minimum matches threshold — control how many matches a team needs to appear in the analysis
 
 ## Tools
 Python · pandas · matplotlib · scikit-learn · Google Colab
